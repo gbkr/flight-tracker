@@ -1,0 +1,38 @@
+._2LZ7Z {
+  outline: none;
+}
+#container {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+}
+
+#flight-map {
+  flex: 4;
+  width: 80vw;
+}
+
+#info-panel {
+  width:20vw;
+  background: #ccc;
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  font-size: 80%;
+}
+
+.flightDetail-title {
+  font-weight: bold;
+  flex: 1;
+}
+
+.flightDetail-value {
+  width:80%;
+}
+
+
+.active {
+  border: 2px solid red;
+}
+
+
